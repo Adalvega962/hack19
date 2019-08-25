@@ -1,0 +1,79 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+body{
+    border: 2px rgb(250, 250, 250);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    /*background: url(fondo.jpg) no-repeat ;
+    /*opacity: .5;*/
+}
+
+
+
+.login{
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    left: 51%;
+    color: aliceblue;
+    transform: translate(-30%,-50%);
+}
+
+.login h1{
+    width: 55%;
+    margin: 0%;
+    padding: 3%;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textbox{
+    border-radius: 3% 0%;
+    width: 44%;
+    padding: 5%;
+    overflow: hidden;
+    border-bottom: 1px  solid rgb(201, 204, 252);
+    
+
+}
+
+.btn{
+    background: none;
+    margin: 5% 7% 1% 10%;
+    padding: 1% 2%;
+    color: aliceblue;
+     transition: .25s ease-in-out;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    padding: 1.5% 2%;
+    border-bottom: 2% rgb(250, 250, 250)
+    
+}
+.logo{
+ right: 100%;
+ top:52%;
+ position: relative;
+ float: none;   
+ cursor: pointer;
+}
+
+a{
+color: rgb(229, 231, 71);  
+text-decoration-line: none;  
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: aliceblue;
+}
+.derechos{
+padding: 20%;
+    
+
+}

@@ -1,0 +1,48 @@
+body, html{
+	overflow: hidden;
+	background:url(fondo.jpg);
+	height: 100%;
+
+}
+.registro{
+	height: 100vh;
+	width: 100vw;
+	background-image: url('../Imagenes/FondoAnimado.gif');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+.formulario{
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	text-align: center;
+}
+.formulario div {
+	padding: 10px 0px;
+}
+.formulario div > label + input  {
+	text-align: center;
+}
+.formulario .boton{
+	font-size: 20px;
+	
+	background: none;
+	color: white;
+	font-weight:  bold;
+	font-family:serif;
+}
+.boton:hover{
+	cursor: pointer;
+
+}
